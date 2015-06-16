@@ -10,7 +10,6 @@ Hello World.
 <article>
         <p>This is my <strong>first</strong> paragraph</p>
         <p>This is my <em>second</em> paragraph</p>
-	<p>Making updates</p>
 </article>
 <aside>
         <p>About the <u>author</u></p>
