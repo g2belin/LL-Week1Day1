@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Structure</title>
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 30px;
+  }
+  nav, header, section, aside, article, footer, div {
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 1%;
+    background-color: #47A3FF;
+    border: 1px solid black;
+  }
+  section {
+    overflow: hidden;
+  }
+  aside {
+    float: left;
+    width: 29%;
+    background-color: #246BB2;
+  }
+  article {
+    float: left;
+    width: 69%;
+    background-color: #246BB2;
+  }
+  article header, article footer {
+    background-color: #A375FF;
+  }
+  footer {
+    clear: both;
+  }
+  div {
+    border: none;
+    background: none;
+  }
+  </style>
+</head>
+<body>
+ 
+  <nav>&lt;nav&gt;</nav>
+ 
+  <header>&lt;header&gt;</header>
+ 
+  <section>
+    &lt;section&gt;
+    <br />
+    <aside>&lt;aside&gt;</aside>
+    <article>
+      &lt;article&gt;
+      <br />
+      <header>&lt;header&gt;</header>
+      <div>content</div>
+      <footer>&lt;footer&gt;</footer>
+    </article>
+  </section>
+ 
+  <footer>&lt;footer&gt;</footer>
+ 
+</body>
+</html>
