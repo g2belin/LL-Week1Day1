@@ -20,8 +20,9 @@ section {
   max-width: 70%;
 }
 
+/*Padding, border & margin will be outside of the box */
 aside {
-  min-width: 28%;
+  min-width: 20%; 
   margin-left: 10px;
 }
 
